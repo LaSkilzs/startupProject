@@ -1,0 +1,16 @@
+body {
+  font-family: "Maven Pro", sans-serif;
+}
+
+.fas,
+.far {
+  font-size: 5rem;
+  color: #d2e4ec;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.navlink {
+  text-decoration: none;
+  color: white;
+}

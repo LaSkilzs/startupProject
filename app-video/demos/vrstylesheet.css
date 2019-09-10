@@ -1,0 +1,13 @@
+.make-center {
+    position: absolute;
+    right: 10px;
+    width: 170px;
+    z-index: 10;
+    top: 10px;
+}
+label {
+    color: antiquewhite
+}
+#room-id {
+    width: fit-content
+}

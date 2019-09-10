@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gloomaps scheme="1.0">
+  <link>https://www.gloomaps.com/YRkg7MnwZ7</link>
+  <pubdate>08/24/2019</pubdate>
+  <section>
+    <box>
+      <text>Immersful
+(www.immersful.com)</text>
+      <member>
+        <box>
+          <text>Home-Page
+(/)</text>
+          <member>
+            <box>
+              <text>Yale University
+(/yale)</text>
+              <member>
+                <box>
+                  <text>School of Management
+(/yale/som)</text>
+                  <member>
+                    <box>
+                      <text>User Login
+(/yale/som/login)</text>
+                      <member>
+                        <box>
+                          <text>Admin Dashboard
+(/yale/som/admin)</text>
+                          <member>
+                            <box>
+                              <text>Create Room, Add 360 </text>
+                              <member/>
+                            </box>
+                          </member>
+                        </box>
+                        <box>
+                          <text>Teacher Dashboard
+(/yale/som/teacher)</text>
+                          <member>
+                            <box>
+                              <text>Add powerpoint</text>
+                              <member>
+                                <box>
+                                  <text>Join a room</text>
+                                  <member/>
+                                </box>
+                              </member>
+                            </box>
+                          </member>
+                        </box>
+                        <box>
+                          <text>Student Dashboard
+(/yale/som/student)</text>
+                          <member>
+                            <box>
+                              <text>Login to the stream</text>
+                              <member>
+                                <box>
+                                  <text>Join a room</text>
+                                  <member/>
+                                </box>
+                              </member>
+                            </box>
+                          </member>
+                        </box>
+                      </member>
+                    </box>
+                  </member>
+                </box>
+                <box>
+                  <text>School of Arts
+(/yale/soa)</text>
+                  <member/>
+                </box>
+              </member>
+            </box>
+            <box>
+              <text>Some other university
+(/uni)</text>
+              <member/>
+            </box>
+            <box>
+              <text>Simple User login
+(/login)</text>
+              <member>
+                <box>
+                  <text>Select Plan
+(/pricing)</text>
+                  <member>
+                    <box>
+                      <text>Create a room
+(/room/create)</text>
+                      <member/>
+                    </box>
+                    <box>
+                      <text>Join a room
+(/room/join)</text>
+                      <member/>
+                    </box>
+                  </member>
+                </box>
+              </member>
+            </box>
+          </member>
+        </box>
+        <box>
+          <text>Join a room
+(/room/join)</text>
+          <member>
+            <box>
+              <text>Video call Page
+(/room-id)</text>
+              <member/>
+            </box>
+          </member>
+        </box>
+      </member>
+    </box>
+  </section>
+</gloomaps>

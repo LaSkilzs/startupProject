@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Londrina+Solid:900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/fb54b76112.js"></script>
+    <title>Coming Soon</title>
+  </head>
+  <style>
+    body {
+       background: black;
+    }
+    #container {
+      display: flex;
+      text-align: center;
+      max-width: 100%;
+      justify-content: center;
+  
+    }
+     #frame{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin: 200px;
+    }
+    #header {
+      color: white;
+      position: absolute;
+      max-width: 50rem;
+      padding: 20px;
+    }
+    h2 {
+      color: white;
+      font-size: 5rem;
+      font-family: "Londrina Solid", cursive;
+      margin-top:10rem;
+      width: 30rem;
+      
+    }
+    #social-media {
+      display: flex;
+      justify-content: center;
+    }
+    .fab {
+      color: white;
+      font-size: 3rem;
+      margin: 10px;
+    }
+
+    @media screen and (max-width: 1000px){
+      #header {
+        max-width: 40rem;
+        padding: 15px;
+      }
+    }
+    @media screen and (max-width: 800px){
+      #header {
+        max-width: 35rem;
+        padding: 10px;
+      }
+      
+      h2{
+        font-size: 3.5rem;
+        }
+
+        .fab{
+          font-size: 2rem;
+        }
+    }
+    @media screen and (max-width: 700px){
+      #header {
+        max-width: 30rem;
+        padding: 5px;
+      }
+      
+      h2{
+        font-size: 2.5rem;
+        }
+        .fab{
+          font-size: 1.5rem;
+      margin: 5px;
+        }
+    }
+    @media screen and (max-width: 500px){
+      #header {
+        max-width: 20rem;
+      }
+      
+      h2{
+        font-size: 2.5rem;
+        }
+        .fab{
+          font-size: 1.5rem;
+      margin: 5px;
+        }
+    }
+
+  </style>
+  <body>
+    <div id="container">
+      <div id="frame"><img id="header" src="logo.png" alt="Immersful"></img>
+      <div id="contact-info">
+        <h2>Coming Soon</h2>    
+        <div id="social-media">
+          <a href="https://www.facebook.com/Immersful"> <i class="fab fa-facebook-square" ></i></a>
+          <a href="https://twitter.com/immersful"><i class="fab fa-twitter-square"></i></a>
+          <a href="https://www.instagram.com/immersful/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/company/immersful/about/"> <i class="fab fa-linkedin"></i></a>
+          </div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
