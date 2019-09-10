@@ -8,6 +8,7 @@ import Typography from "@material-ui/core/Typography";
 import { Link } from "react-router-dom";
 
 import { signOut } from "../../firebase";
+import DevNavBarChange from "./DevNavBarChange";
 
 const useStyles = makeStyles({
   table: {
@@ -22,6 +23,23 @@ const useStyles = makeStyles({
   },
   header: {
     fontFamily: "Raleway, sans-serif"
+  },
+  button: {
+    color: "white",
+    background: "#ff5900",
+    fontWeight: "bold",
+    fontSize: "1.5rem",
+    padding: ".3rem",
+    marginLeft: "10rem",
+    borderRadius: 5,
+    width: "15rem",
+    "@media (max-width: 420px)": {
+      width: "10rem",
+      fontSize: "0.8rem"
+    }
+  },
+  navlink: {
+    textDecoration: "none"
   }
 });
 
@@ -35,6 +53,9 @@ const PlainNav = props => {
             <Typography variant="h3" className={classes.header}>
               Welcome to Immersful
             </Typography>
+          </TableCell>
+          <TableCell align="center" className={classes.tablecell}>
+            <DevNavBarChange handleNav={props.handleNav} />
           </TableCell>
         </TableRow>
       </TableBody>
